@@ -1,0 +1,20 @@
+.node {
+  /*height: 10%;
+  width: 10%;*/
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  color: black;
+}
+
+/* make a highlighted node */
+
+.fullLayer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
