@@ -10,11 +10,38 @@
   color: black;
 }
 
+/* We need a null node in between each node, based on last layer up*/
+
+.nullNode {
+  /*height: 10%;
+  width: 10%;*/
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  /*background-color: blue;*/
+  border-radius: 50%;
+  display: inline-block;
+  color: black;
+}
+
 /* make a highlighted node */
+
+.highLitNode {
+  /*height: 10%;
+  width: 10%;*/
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  color: black;
+}
+
 
 .fullLayer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: blue;
+  /*background-color: blue;*/
 }
